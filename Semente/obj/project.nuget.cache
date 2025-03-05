@@ -1,0 +1,454 @@
+{
+  "version": 2,
+  "dgSpecHash": "P8ISOrolq6M=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Semente\\Semente\\Semente.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felil\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks\\5.1.0\\mahapps.metro.iconpacks.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.bootstrapicons\\5.1.0\\mahapps.metro.iconpacks.bootstrapicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.boxicons\\5.1.0\\mahapps.metro.iconpacks.boxicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.circumicons\\5.1.0\\mahapps.metro.iconpacks.circumicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.codicons\\5.1.0\\mahapps.metro.iconpacks.codicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.coolicons\\5.1.0\\mahapps.metro.iconpacks.coolicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.core\\5.1.0\\mahapps.metro.iconpacks.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.entypo\\5.1.0\\mahapps.metro.iconpacks.entypo.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.evaicons\\5.1.0\\mahapps.metro.iconpacks.evaicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.feathericons\\5.1.0\\mahapps.metro.iconpacks.feathericons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.fileicons\\5.1.0\\mahapps.metro.iconpacks.fileicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.fontaudio\\5.1.0\\mahapps.metro.iconpacks.fontaudio.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.fontawesome\\5.1.0\\mahapps.metro.iconpacks.fontawesome.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.fontisto\\5.1.0\\mahapps.metro.iconpacks.fontisto.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.forkawesome\\5.1.0\\mahapps.metro.iconpacks.forkawesome.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.gameicons\\5.1.0\\mahapps.metro.iconpacks.gameicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.ionicons\\5.1.0\\mahapps.metro.iconpacks.ionicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.jamicons\\5.1.0\\mahapps.metro.iconpacks.jamicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.lucide\\5.1.0\\mahapps.metro.iconpacks.lucide.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.material\\5.1.0\\mahapps.metro.iconpacks.material.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.materialdesign\\5.1.0\\mahapps.metro.iconpacks.materialdesign.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.materiallight\\5.1.0\\mahapps.metro.iconpacks.materiallight.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.memoryicons\\5.1.0\\mahapps.metro.iconpacks.memoryicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.microns\\5.1.0\\mahapps.metro.iconpacks.microns.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.modern\\5.1.0\\mahapps.metro.iconpacks.modern.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.octicons\\5.1.0\\mahapps.metro.iconpacks.octicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.phosphoricons\\5.1.0\\mahapps.metro.iconpacks.phosphoricons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.picolicons\\5.1.0\\mahapps.metro.iconpacks.picolicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.pixelarticons\\5.1.0\\mahapps.metro.iconpacks.pixelarticons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.radixicons\\5.1.0\\mahapps.metro.iconpacks.radixicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.remixicon\\5.1.0\\mahapps.metro.iconpacks.remixicon.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.rpgawesome\\5.1.0\\mahapps.metro.iconpacks.rpgawesome.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.simpleicons\\5.1.0\\mahapps.metro.iconpacks.simpleicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.typicons\\5.1.0\\mahapps.metro.iconpacks.typicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.unicons\\5.1.0\\mahapps.metro.iconpacks.unicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.vaadinicons\\5.1.0\\mahapps.metro.iconpacks.vaadinicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.weathericons\\5.1.0\\mahapps.metro.iconpacks.weathericons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\mahapps.metro.iconpacks.zondicons\\5.1.0\\mahapps.metro.iconpacks.zondicons.5.1.0.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\materialskin\\0.2.1\\materialskin.0.2.1.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\felil\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'LiveCharts 0.9.7' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.BootstrapIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.BootstrapIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.BoxIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.BoxIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.CircumIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.CircumIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Codicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Codicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Coolicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Coolicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Core 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Entypo 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Entypo",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.EvaIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.EvaIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.FeatherIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.FeatherIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.FileIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.FileIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Fontaudio 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Fontaudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.FontAwesome 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.FontAwesome",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Fontisto 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Fontisto",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.ForkAwesome 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.ForkAwesome",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.GameIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.GameIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Ionicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Ionicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.JamIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.JamIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Lucide 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Lucide",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Material 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Material",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.MaterialDesign 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.MaterialDesign",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.MaterialLight 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.MaterialLight",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.MemoryIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.MemoryIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Microns 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Microns",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Modern 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Modern",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Octicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Octicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.PhosphorIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.PhosphorIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.PicolIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.PicolIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.PixelartIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.PixelartIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.RadixIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.RadixIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.RemixIcon 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.RemixIcon",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.RPGAwesome 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.RPGAwesome",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.SimpleIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.SimpleIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Typicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Typicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Unicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Unicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.VaadinIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.VaadinIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.WeatherIcons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.WeatherIcons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MahApps.Metro.IconPacks.Zondicons 5.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MahApps.Metro.IconPacks.Zondicons",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'MaterialSkin 0.2.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "MaterialSkin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
