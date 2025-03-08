@@ -1,6 +1,7 @@
 using Npgsql;
 using Semente;
 using Semente.DAL;
+using Semente.Utils;
 using System.Configuration;
 
 namespace frmLogin
@@ -24,20 +25,12 @@ namespace frmLogin
             if (txtSenha.UseSystemPasswordChar)
             {
                 txtSenha.UseSystemPasswordChar = false;
-                pbVisibilidadeSenha.Image = ByteArrayToImage(Semente.Properties.Resources.visivel);
+                pbVisibilidadeSenha.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.visivel);
             }
             else
             {
                 txtSenha.UseSystemPasswordChar = true;
-                pbVisibilidadeSenha.Image = ByteArrayToImage(Semente.Properties.Resources.invisivel);
-            }
-        }
-
-        private Image ByteArrayToImage(byte[] byteArrayIn)
-        {
-            using (MemoryStream ms = new MemoryStream(byteArrayIn))
-            {
-                return Image.FromStream(ms);
+                pbVisibilidadeSenha.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.invisivel);
             }
         }
 
@@ -50,10 +43,10 @@ namespace frmLogin
 
         private void carregaImagens()
         {
-            pbBackground.Image = ByteArrayToImage(Semente.Properties.Resources.background);
-            pbIlustracao.Image = ByteArrayToImage(Semente.Properties.Resources.ilustracao);
-            pbCloseApplication.Image = ByteArrayToImage(Semente.Properties.Resources.close);
-            pbVisibilidadeSenha.Image = ByteArrayToImage(Semente.Properties.Resources.invisivel);
+            pbBackground.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.background);
+            pbIlustracao.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.ilustracao);
+            pbCloseApplication.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.close);
+            pbVisibilidadeSenha.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.invisivel);
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
