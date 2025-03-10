@@ -1,6 +1,7 @@
 ﻿using Semente.DAL;
 using Semente.Properties;
 using Semente.Utils;
+using Semente.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,17 +37,34 @@ namespace Semente
 
         private void carregaImagens()
         {
-            pbCloseApplicationCadastro.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.close);
+            pbCloseApplicationCadastro.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.CloseButtonCadastro);
         }
 
-        private void frmCadastro_FormClosed(object sender, FormClosedEventArgs e)
+        private void pbCloseApplicationCadastro_Click(object sender, EventArgs e)
         {
             if (telaOrigem != null)
             {
                 telaOrigem.Show();
             }
-
         }
 
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            bool bolAdmin = false;
+
+            if (rbAdministrador.Checked)
+                bolAdmin = true;
+
+            /*
+             
+                CRIAR A VALIDAÇÃO DE CAMPOS AQUI!
+            
+            */
+
+            Usuario usuario = new Usuario();
+
+
+
+        }
     }
 }

@@ -93,6 +93,16 @@ namespace Semente.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Byte[].
         /// </summary>
+        internal static byte[] CloseButtonCadastro {
+            get {
+                object obj = ResourceManager.GetObject("CloseButtonCadastro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
         internal static byte[] ilustracao {
             get {
                 object obj = ResourceManager.GetObject("ilustracao", resourceCulture);

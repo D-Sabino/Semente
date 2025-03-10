@@ -36,9 +36,9 @@ namespace frmLogin
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            carregaImagens();
             Conexao cx = new Conexao(DadosConexao.StringDeConexao);
             cx.Conectar();
+            carregaImagens();
         }
 
         private void carregaImagens()
