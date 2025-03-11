@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
+using System.Text.RegularExpressions;
 
 namespace Semente
 {
@@ -50,20 +51,44 @@ namespace Semente
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            bool bolAdmin = false;
+            try
+            {
+                Usuario usuario = new Usuario();
+                String strConexao = DadosConexao.StringDeConexao;
+                Conexao cx = new Conexao(strConexao);
+                
+                bool bolAdmin = false;
+                if (rbAdministrador.Checked)
+                    bolAdmin = true;
 
-            if (rbAdministrador.Checked)
-                bolAdmin = true;
+                /* Validação dos campos */
+                if (string.IsNullOrEmpty(txtNome.Text))
+                {
+                    MessageBox.Show("O campo nome é obrigatório!");
+                    return;
+                }
+                else if (!Regex.IsMatch(txtNome.Text, @"^[a-zA-Z]+$"))
+                {
+                    MessageBox.Show("O campo nome deve conter apenas letras!");
+                    return;
+                }
+                if(string.IsNullOrEmpty(txtEmail.Text) || !Regex.IsMatch(txtEmail.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                {
+                    MessageBox.Show("O campo email é obrigatório e deve ser um email válido!");
+                    return;
+                }
 
-            /*
-             
-                CRIAR A VALIDAÇÃO DE CAMPOS AQUI!
-            
-            */
-
-            Usuario usuario = new Usuario();
+                usuario.Nome = txtNome.Text;
+                usuario.Email = txtEmail.Text;
+                usuario.Senha = txtSenha.Text;
+                usuario.Admin = bolAdmin;
 
 
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Erro ao salvar: " + ex.Message);
+            }
 
         }
     }

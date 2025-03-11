@@ -17,7 +17,7 @@ namespace Semente.DAL
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT 1 FROM usuarios";
+                string query = "SELECT 1 FROM usuario";
 
                 using (var cmd = new NpgsqlCommand(query, conn))
                 {
@@ -26,27 +26,5 @@ namespace Semente.DAL
                 }
             }
         }
-
-        public void CriarUsuario(string nome, string email, string senhaHash, string tipoUsuario)
-        {
-            using (var conn = new NpgsqlConnection(connectionString))
-            {
-                conn.Open();
-                string query = "INSERT INTO usuarios (nome, email, senha, tipo_usuario, data_criacao) " +
-                               "VALUES (@nome, @email, @senha, @tipoUsuario, @dataCriacao)";
-
-                using (var cmd = new NpgsqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@nome", nome);
-                    cmd.Parameters.AddWithValue("@email", email);
-                    cmd.Parameters.AddWithValue("@senha", senhaHash);
-                    cmd.Parameters.AddWithValue("@tipoUsuario", tipoUsuario);
-                    cmd.Parameters.AddWithValue("@dataCriacao", DateTime.UtcNow); // Usa UTC para padronização
-
-                    cmd.ExecuteNonQuery();
-                }
-            }
-        }
-
     }
 }

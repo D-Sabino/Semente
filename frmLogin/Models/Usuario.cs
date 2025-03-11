@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Semente.Models
 {
-    class Usuario
+    public class Usuario
     {
         private int con_id;
         private string con_nome, con_email, con_senha;
