@@ -89,12 +89,12 @@ namespace frmLogin
             using (var conn = new NpgsqlConnection(DadosConexao.StringDeConexao))
             {
                 conn.Open();
-                using (var cmd = new NpgsqlCommand("SELECT Senha FROM Usuarios WHERE Email = @email", conn))
+                using (var cmd = new NpgsqlCommand("SELECT Senha FROM Usuario WHERE LOWER(email) = LOWER(@email)", conn))
                 {
                     cmd.Parameters.AddWithValue("email", email);
-                    var hashedSenha = cmd.ExecuteScalar()?.ToString();
+                    var hashedSenha = cmd.ExecuteScalar() as string;
 
-                    if (hashedSenha != null && BCrypt.Net.BCrypt.Verify(senha, hashedSenha))
+                    if (!string.IsNullOrEmpty(hashedSenha) && BCrypt.Net.BCrypt.Verify(senha, hashedSenha))
                     {
                         return true;
                     }

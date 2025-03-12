@@ -32,7 +32,18 @@ namespace Semente
             cx.Conectar();
             carregaImagens();
             MessageBox.Show("Foi para a tela de cadastro!");
+
             /*Iniciar o desenvolvimento!*/
+            if (telaOrigem.Text == "Login")
+            {
+                rbAdministrador.Checked = true;
+                rbPadrao.Checked = false;
+                rbPadrao.Enabled = false;
+
+
+
+            }
+
 
         }
 
@@ -55,8 +66,9 @@ namespace Semente
             {
                 Usuario usuario = new Usuario();
                 String strConexao = DadosConexao.StringDeConexao;
-                Conexao cx = new Conexao(strConexao);
-                
+                Conexao conexao = new Conexao(strConexao);
+                DALUsuario dal = new DALUsuario(conexao);
+
                 bool bolAdmin = false;
                 if (rbAdministrador.Checked)
                     bolAdmin = true;
@@ -72,7 +84,7 @@ namespace Semente
                     MessageBox.Show("O campo nome deve conter apenas letras!");
                     return;
                 }
-                if(string.IsNullOrEmpty(txtEmail.Text) || !Regex.IsMatch(txtEmail.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+                if (string.IsNullOrEmpty(txtEmail.Text) || !Regex.IsMatch(txtEmail.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
                 {
                     MessageBox.Show("O campo email é obrigatório e deve ser um email válido!");
                     return;
@@ -83,9 +95,15 @@ namespace Semente
                 usuario.Senha = txtSenha.Text;
                 usuario.Admin = bolAdmin;
 
+                if (telaOrigem.Text == "Login")
+                {
+                    dal.Incluir(usuario);
+                    MessageBox.Show("Usuário cadastrado com sucesso!");
+                    this.Hide();
+                }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Erro ao salvar: " + ex.Message);
             }

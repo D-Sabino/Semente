@@ -42,6 +42,7 @@
             btnSalvar = new Button();
             btnCancelar = new Button();
             lblCadastro = new Label();
+            btnPesquisar = new Button();
             ((System.ComponentModel.ISupportInitialize)pbCloseApplicationCadastro).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -169,7 +170,7 @@
             btnSalvar.FlatStyle = FlatStyle.Flat;
             btnSalvar.Font = new Font("Bahnschrift Condensed", 12F);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(249, 387);
+            btnSalvar.Location = new Point(249, 370);
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(93, 35);
@@ -184,7 +185,7 @@
             btnCancelar.FlatStyle = FlatStyle.Flat;
             btnCancelar.Font = new Font("Bahnschrift Condensed", 12F);
             btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(408, 387);
+            btnCancelar.Location = new Point(408, 370);
             btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(93, 35);
@@ -203,12 +204,27 @@
             lblCadastro.TabIndex = 27;
             lblCadastro.Text = "Cadastro";
             // 
+            // btnPesquisar
+            // 
+            btnPesquisar.BackColor = Color.FromArgb(155, 192, 151);
+            btnPesquisar.FlatStyle = FlatStyle.Flat;
+            btnPesquisar.Font = new Font("Bahnschrift Condensed", 12F);
+            btnPesquisar.ForeColor = SystemColors.ButtonHighlight;
+            btnPesquisar.Location = new Point(295, 413);
+            btnPesquisar.Margin = new Padding(3, 4, 3, 4);
+            btnPesquisar.Name = "btnPesquisar";
+            btnPesquisar.Size = new Size(93, 35);
+            btnPesquisar.TabIndex = 28;
+            btnPesquisar.Text = "Pesquisar";
+            btnPesquisar.UseVisualStyleBackColor = false;
+            // 
             // frmCadastro
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(155, 192, 151);
             ClientSize = new Size(753, 511);
+            Controls.Add(btnPesquisar);
             Controls.Add(lblCadastro);
             Controls.Add(btnCancelar);
             Controls.Add(btnSalvar);
@@ -250,5 +266,6 @@
         private Button btnSalvar;
         private Button btnCancelar;
         private Label lblCadastro;
+        private Button btnPesquisar;
     }
 }
