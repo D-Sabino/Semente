@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Projetos\\Semente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\dal\\dalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\dal\\dalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\dal\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\dal\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,69 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCadastro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
-              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmCadastro.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs [Projeto]",
-              "RelativeToolTip": "frmLogin\\Forms\\frmCadastro.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:59:15.575Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\DAL\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "frmLogin\\DAL\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\DAL\\UsuarioRepository.cs",
-              "RelativeToolTip": "frmLogin\\DAL\\UsuarioRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:29:51.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "frmLogin\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Models\\Usuario.cs",
-              "RelativeToolTip": "frmLogin\\Models\\Usuario.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:26:27.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DALUsuario.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\DAL\\DALUsuario.cs",
-              "RelativeDocumentMoniker": "frmLogin\\DAL\\DALUsuario.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\DAL\\DALUsuario.cs",
-              "RelativeToolTip": "frmLogin\\DAL\\DALUsuario.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADwvz8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:23:53.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCadastro.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
-              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmCadastro.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
-              "RelativeToolTip": "frmLogin\\Forms\\frmCadastro.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAewHoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T00:48:05.369Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -105,10 +32,34 @@
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmLogin.cs",
               "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
               "RelativeToolTip": "frmLogin\\Forms\\frmLogin.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAnwGAAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAArwE8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:43:16.401Z",
+              "WhenOpened": "2025-03-15T18:22:13.066Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmLogin.cs",
+              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs [Projeto]",
+              "RelativeToolTip": "frmLogin\\Forms\\frmLogin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:20:46.976Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmPrincipal.cs",
+              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "frmLogin\\Forms\\frmPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:20:36.337Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

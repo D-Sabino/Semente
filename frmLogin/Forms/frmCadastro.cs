@@ -31,17 +31,19 @@ namespace Semente
             Conexao cx = new Conexao(DadosConexao.StringDeConexao);
             cx.Conectar();
             carregaImagens();
-            MessageBox.Show("Foi para a tela de cadastro!");
-
-            /*Iniciar o desenvolvimento!*/
+           
             if (telaOrigem.Text == "Login")
             {
                 rbAdministrador.Checked = true;
                 rbPadrao.Checked = false;
                 rbPadrao.Enabled = false;
 
-
-
+                btnExcluir.Visible = false;
+                btnPesquisar.Enabled = false;
+            }
+            else
+            {
+                /*Iniciar o desenvolvimento!*/
             }
 
 

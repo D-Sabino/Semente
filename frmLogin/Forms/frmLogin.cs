@@ -1,6 +1,7 @@
 using Npgsql;
 using Semente;
 using Semente.DAL;
+using Semente.Forms;
 using Semente.Utils;
 using System.Configuration;
 
@@ -75,6 +76,8 @@ namespace frmLogin
             if (AutenticarUsuario(email, senha))
             {
                 MessageBox.Show("Usuário autenticado com sucesso!");
+                frmPrincipal frmPrincipal = new frmPrincipal();
+                frmPrincipal.ShowDialog();
                 this.Hide();
 
             }
