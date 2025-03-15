@@ -40,7 +40,7 @@
             rbAdministrador = new RadioButton();
             pictureBox1 = new PictureBox();
             btnSalvar = new Button();
-            btnCancelar = new Button();
+            btnLimpar = new Button();
             lblCadastro = new Label();
             btnPesquisar = new Button();
             ((System.ComponentModel.ISupportInitialize)pbCloseApplicationCadastro).BeginInit();
@@ -170,7 +170,7 @@
             btnSalvar.FlatStyle = FlatStyle.Flat;
             btnSalvar.Font = new Font("Bahnschrift Condensed", 12F);
             btnSalvar.ForeColor = SystemColors.ButtonHighlight;
-            btnSalvar.Location = new Point(249, 370);
+            btnSalvar.Location = new Point(211, 413);
             btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(93, 35);
@@ -179,19 +179,20 @@
             btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += btnSalvar_Click;
             // 
-            // btnCancelar
+            // btnLimpar
             // 
-            btnCancelar.BackColor = Color.FromArgb(155, 192, 151);
-            btnCancelar.FlatStyle = FlatStyle.Flat;
-            btnCancelar.Font = new Font("Bahnschrift Condensed", 12F);
-            btnCancelar.ForeColor = SystemColors.ButtonHighlight;
-            btnCancelar.Location = new Point(408, 370);
-            btnCancelar.Margin = new Padding(3, 4, 3, 4);
-            btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(93, 35);
-            btnCancelar.TabIndex = 26;
-            btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = false;
+            btnLimpar.BackColor = Color.FromArgb(155, 192, 151);
+            btnLimpar.FlatStyle = FlatStyle.Flat;
+            btnLimpar.Font = new Font("Bahnschrift Condensed", 12F);
+            btnLimpar.ForeColor = SystemColors.ButtonHighlight;
+            btnLimpar.Location = new Point(310, 413);
+            btnLimpar.Margin = new Padding(3, 4, 3, 4);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(93, 35);
+            btnLimpar.TabIndex = 26;
+            btnLimpar.Text = "Limpar";
+            btnLimpar.UseVisualStyleBackColor = false;
+            btnLimpar.Click += btnLimpar_Click;
             // 
             // lblCadastro
             // 
@@ -210,7 +211,7 @@
             btnPesquisar.FlatStyle = FlatStyle.Flat;
             btnPesquisar.Font = new Font("Bahnschrift Condensed", 12F);
             btnPesquisar.ForeColor = SystemColors.ButtonHighlight;
-            btnPesquisar.Location = new Point(295, 413);
+            btnPesquisar.Location = new Point(408, 413);
             btnPesquisar.Margin = new Padding(3, 4, 3, 4);
             btnPesquisar.Name = "btnPesquisar";
             btnPesquisar.Size = new Size(93, 35);
@@ -226,7 +227,7 @@
             ClientSize = new Size(753, 511);
             Controls.Add(btnPesquisar);
             Controls.Add(lblCadastro);
-            Controls.Add(btnCancelar);
+            Controls.Add(btnLimpar);
             Controls.Add(btnSalvar);
             Controls.Add(rbAdministrador);
             Controls.Add(rbPadrao);
@@ -264,7 +265,7 @@
         private RadioButton rbAdministrador;
         private PictureBox pictureBox1;
         private Button btnSalvar;
-        private Button btnCancelar;
+        private Button btnLimpar;
         private Label lblCadastro;
         private Button btnPesquisar;
     }

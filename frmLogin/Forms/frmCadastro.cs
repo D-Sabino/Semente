@@ -54,6 +54,11 @@ namespace Semente
 
         private void pbCloseApplicationCadastro_Click(object sender, EventArgs e)
         {
+            retornaTelaOrigem();
+        }
+
+        public void retornaTelaOrigem()
+        {
             if (telaOrigem != null)
             {
                 telaOrigem.Show();
@@ -100,6 +105,7 @@ namespace Semente
                     dal.Incluir(usuario);
                     MessageBox.Show("Usuário cadastrado com sucesso!");
                     this.Hide();
+                    retornaTelaOrigem();
                 }
 
             }
@@ -108,6 +114,13 @@ namespace Semente
                 MessageBox.Show("Erro ao salvar: " + ex.Message);
             }
 
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtNome.Text = "";
+            txtEmail.Text = "";
+            txtSenha.Text = "";
         }
     }
 }

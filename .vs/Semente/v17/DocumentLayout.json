@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Projetos\\Semente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\dal\\dalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmCadastro.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmCadastro.cs",
@@ -58,8 +58,7 @@
               "RelativeToolTip": "frmLogin\\DAL\\UsuarioRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:29:51.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:29:51.648Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "frmLogin\\Models\\Usuario.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:26:27.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:26:27.195Z"
             },
             {
               "$type": "Document",
@@ -84,25 +82,24 @@
               "RelativeToolTip": "frmLogin\\DAL\\DALUsuario.cs",
               "ViewState": "AgIAACwAAAAAAAAAAADwvz8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:23:53.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:23:53.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmCadastro.cs",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmCadastro.cs",
               "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmCadastro.cs",
               "RelativeToolTip": "frmLogin\\Forms\\frmCadastro.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAewG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAewHoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T00:48:05.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmLogin.cs",
