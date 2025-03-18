@@ -57,7 +57,7 @@ namespace frmLogin
             string email = txtEmail.Text;
             string senha = txtSenha.Text;
 
-            if(usuarioRepository.ExisteUsuarioCadastrado() == false)
+            if (usuarioRepository.ExisteUsuarioCadastrado() == false)
             {
                 MessageBox.Show("Nenhum usuário cadastrado!");
                 this.operacao = "login";
@@ -104,6 +104,12 @@ namespace frmLogin
                 }
             }
             return false;
+        }
+
+        private void btnEsqueci_Click(object sender, EventArgs e)
+        {
+            frmRecuperarSenha recuperarSenha = new frmRecuperarSenha();
+            recuperarSenha.Show();
         }
     }
 }

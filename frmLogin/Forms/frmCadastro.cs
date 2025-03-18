@@ -30,7 +30,6 @@ namespace Semente
         {
             Conexao cx = new Conexao(DadosConexao.StringDeConexao);
             cx.Conectar();
-            carregaImagens();
            
             if (telaOrigem.Text == "Login")
             {
@@ -49,10 +48,6 @@ namespace Semente
 
         }
 
-        private void carregaImagens()
-        {
-            pbCloseApplicationCadastro.Image = ImageHelper.ByteArrayToImage(Semente.Properties.Resources.CloseButtonCadastro);
-        }
 
         private void pbCloseApplicationCadastro_Click(object sender, EventArgs e)
         {

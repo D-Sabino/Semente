@@ -63,6 +63,7 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(313, 32);
             txtEmail.TabIndex = 1;
+            txtEmail.Text = "teste@gmail.com";
             // 
             // lblSenha
             // 
@@ -81,6 +82,7 @@
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(313, 32);
             txtSenha.TabIndex = 3;
+            txtSenha.Text = "1234";
             txtSenha.UseSystemPasswordChar = true;
             // 
             // chkLembrar
@@ -121,6 +123,7 @@
             btnEsqueci.TabIndex = 6;
             btnEsqueci.Text = "Esqueci a senha";
             btnEsqueci.UseVisualStyleBackColor = false;
+            btnEsqueci.Click += btnEsqueci_Click;
             // 
             // lblLogin
             // 
@@ -154,6 +157,7 @@
             // 
             // pbCloseApplication
             // 
+            pbCloseApplication.Image = Semente.Properties.Resources.CloseButton;
             pbCloseApplication.Location = new Point(714, 5);
             pbCloseApplication.Name = "pbCloseApplication";
             pbCloseApplication.Size = new Size(34, 38);

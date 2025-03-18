@@ -24,3 +24,5 @@ C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.csproj.Up2Date
 C:\Projetos\Semente\frmLogin\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
 C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.frmCadastro.resources
 C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmPrincipal.resources
+C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmRecuperarSenha.resources
+C:\Projetos\Semente\frmLogin\bin\Debug\net8.0-windows\Semente.dll.config
