@@ -1,4 +1,3 @@
 # Ignorar o arquivo app.config
-*.config
 /app.config
 frmLogin/App.config
