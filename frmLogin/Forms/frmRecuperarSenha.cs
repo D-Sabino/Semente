@@ -84,10 +84,9 @@ namespace Semente.Forms
             {
                 MessageBox.Show("Código enviado com sucesso. Verifique sua caixa de entrada.");
 
-                /*
                 frmValidarCodigo validarCodigo = new frmValidarCodigo(email);
                 validarCodigo.Show();
-                */
+
                 this.Close();
             }
             

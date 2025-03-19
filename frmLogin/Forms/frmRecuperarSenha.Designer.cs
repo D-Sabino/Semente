@@ -62,7 +62,7 @@
             lblRecuperacaoDeSenha.AutoSize = true;
             lblRecuperacaoDeSenha.Font = new Font("Bahnschrift", 19.8000011F, FontStyle.Bold);
             lblRecuperacaoDeSenha.ForeColor = Color.FromArgb(74, 106, 72);
-            lblRecuperacaoDeSenha.Location = new Point(75, 20);
+            lblRecuperacaoDeSenha.Location = new Point(35, 27);
             lblRecuperacaoDeSenha.Name = "lblRecuperacaoDeSenha";
             lblRecuperacaoDeSenha.Size = new Size(326, 41);
             lblRecuperacaoDeSenha.TabIndex = 14;
@@ -74,7 +74,7 @@
             lblInforme.AutoSize = true;
             lblInforme.Font = new Font("Bahnschrift SemiBold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblInforme.ForeColor = Color.FromArgb(74, 106, 72);
-            lblInforme.Location = new Point(25, 65);
+            lblInforme.Location = new Point(35, 81);
             lblInforme.Name = "lblInforme";
             lblInforme.Size = new Size(484, 28);
             lblInforme.TabIndex = 15;
@@ -85,7 +85,7 @@
             lblInforme2.AutoSize = true;
             lblInforme2.Font = new Font("Bahnschrift SemiBold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblInforme2.ForeColor = Color.FromArgb(74, 106, 72);
-            lblInforme2.Location = new Point(25, 93);
+            lblInforme2.Location = new Point(35, 109);
             lblInforme2.Name = "lblInforme2";
             lblInforme2.Size = new Size(234, 28);
             lblInforme2.TabIndex = 16;
@@ -121,7 +121,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(155, 192, 151);
+            BackColor = Color.FromArgb(180, 207, 177);
             ClientSize = new Size(582, 353);
             Controls.Add(btnEnviarCodigo);
             Controls.Add(lblEmail);

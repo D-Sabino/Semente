@@ -13,5 +13,8 @@
     <Compile Update="Forms\frmRecuperarSenha.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\frmValidarCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
