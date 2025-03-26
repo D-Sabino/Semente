@@ -52,11 +52,21 @@ namespace Semente.Forms
             if (AtualizarSenha(emailUsuario, senhaHash))
             {
                 MessageBox.Show("Senha redefinida com sucesso!", "Senha redefinida", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                foreach (Form form in Application.OpenForms)
+                {
+                    if (form.Name == "frmLogin")
+                    {
+                        form.WindowState = FormWindowState.Normal;
+                        form.Activate();
+                        break;
+                    }
+                }
                 Close();
             }
             else
             {
                 MessageBox.Show("Erro ao redefinir senha. Tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
             }
 
         }

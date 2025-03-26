@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblDigiteoCodigoDeRecuperacao = new Label();
             lblCodigo = new Label();
             txtCodigo = new TextBox();
@@ -35,6 +36,7 @@
             btnValidar = new Button();
             btnReenviar = new Button();
             pbCloseApplication = new PictureBox();
+            timerExpiracao = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pbCloseApplication).BeginInit();
             SuspendLayout();
             // 
@@ -74,9 +76,9 @@
             lblExpiracao.ForeColor = Color.FromArgb(74, 106, 72);
             lblExpiracao.Location = new Point(50, 133);
             lblExpiracao.Name = "lblExpiracao";
-            lblExpiracao.Size = new Size(199, 18);
+            lblExpiracao.Size = new Size(229, 18);
             lblExpiracao.TabIndex = 3;
-            lblExpiracao.Text = "Seu código expira em: XX:XX";
+            lblExpiracao.Text = "Seu código é válido até às: XX:XX";
             // 
             // btnValidar
             // 
@@ -151,5 +153,6 @@
         private Button btnValidar;
         private Button btnReenviar;
         private PictureBox pbCloseApplication;
+        private System.Windows.Forms.Timer timerExpiracao;
     }
 }

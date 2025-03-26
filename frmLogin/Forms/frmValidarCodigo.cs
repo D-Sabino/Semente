@@ -24,6 +24,7 @@ namespace Semente.Forms
             InitializeComponent();
             emailUsuario = email;
             CarregarDadosCodigo();
+            IniciarContagemRegressiva();
         }
 
         private void CarregarDadosCodigo()
@@ -44,25 +45,38 @@ namespace Semente.Forms
                         {
                             Properties.Settings.Default.CodigoRecuperacao = reader["Codigo_Recuperacao"].ToString();
                             dataExpiracao = Convert.ToDateTime(reader["data_expiracao_codigo"]);
-                            AtualizarLabelExpiracao();
                         }
                     }
                 }
             }
         }
 
-        private void AtualizarLabelExpiracao()
+        private void IniciarContagemRegressiva()
+        {
+            timerExpiracao.Interval = 1000;
+            timerExpiracao.Tick += TimerExpiracao_Tick;
+            timerExpiracao.Start();
+        }
+
+        private void TimerExpiracao_Tick(object sender, EventArgs e)
         {
             DateTime agora = DateTime.UtcNow.ToLocalTime();
-            lblExpiracao.Text = $"Seu código expira em: {dataExpiracao.ToString("HH:mm")}";
+            TimeSpan tempoRestante = dataExpiracao - agora;
 
-            if (agora > dataExpiracao)
+            if (tempoRestante.TotalSeconds <= 0)
             {
-                MessageBox.Show("Seu código expirou. Por favor, solicite um novo código.", "Código expirado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                timerExpiracao.Stop();
+                lblExpiracao.Text = "Seu código expirou.\nPor favor, solicite um novo código.";
                 lblExpiracao.ForeColor = Color.FromArgb(121, 116, 186);
                 btnReenviar.Visible = true;
                 btnValidar.Enabled = false;
-
+            }
+            else
+            {
+                btnReenviar.Visible = false;
+                btnValidar.Enabled = true;
+                lblExpiracao.ForeColor = Color.FromArgb(74, 106, 72);
+                lblExpiracao.Text = $"Seu código expira em: {tempoRestante.ToString(@"mm\:ss")}";
             }
         }
 
@@ -94,6 +108,9 @@ namespace Semente.Forms
             {
                 MessageBox.Show("Código reenviado com sucesso! Verifique seu e-mail.", "Código reenviado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 CarregarDadosCodigo();
+
+                timerExpiracao.Stop();
+                timerExpiracao.Start();
             }
         }
 
