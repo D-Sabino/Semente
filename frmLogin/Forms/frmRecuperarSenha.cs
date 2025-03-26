@@ -1,4 +1,5 @@
 ﻿using Npgsql;
+using Semente.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace Semente.Forms
 {
     public partial class frmRecuperarSenha : Form
     {
+        private EmailService _emailService = new EmailService();
         public frmRecuperarSenha()
         {
             InitializeComponent();

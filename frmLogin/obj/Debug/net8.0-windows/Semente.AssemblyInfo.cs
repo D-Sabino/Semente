@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Semente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feb13977a9640c143b06134b0b9b556e599e32fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f8b2b11d54c9dc947377f09e9b71d139ad6667")]
 [assembly: System.Reflection.AssemblyProductAttribute("Semente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Semente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

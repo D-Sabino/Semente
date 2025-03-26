@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Npgsql;
 using Semente.Models;
-using BCrypt.Net;
+using Semente.Utils;
 
 namespace Semente.DAL
 {
@@ -23,7 +23,7 @@ namespace Semente.DAL
             NpgsqlCommand cmd = new NpgsqlCommand();
             cmd.Connection = objConexao.connection;
 
-            string senhaHash = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+            string senhaHash = Utils.GerarHash.GerarHashSenha(usuario.Senha);
 
             cmd.CommandText =   "INSERT INTO USUARIO(" +
                                 "nome, email, senha," +

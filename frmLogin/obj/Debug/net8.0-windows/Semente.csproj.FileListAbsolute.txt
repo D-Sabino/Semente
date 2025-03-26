@@ -27,3 +27,4 @@ C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmPrincipal
 C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmRecuperarSenha.resources
 C:\Projetos\Semente\frmLogin\bin\Debug\net8.0-windows\Semente.dll.config
 C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmValidarCodigo.resources
+C:\Projetos\Semente\frmLogin\obj\Debug\net8.0-windows\Semente.Forms.frmRedefinirSenha.resources
