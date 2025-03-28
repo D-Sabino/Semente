@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Projetos\\Semente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|C:\\Projetos\\Semente\\frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|C:\\Projetos\\Semente\\frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmredefinirsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|C:\\Projetos\\Semente\\frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmvalidarcodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmrecuperarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,68 +34,44 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmValidarCodigo.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frmValidarCodigo.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmValidarCodigo.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmValidarCodigo.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmValidarCodigo.cs [Design]",
-              "RelativeToolTip": "frmLogin\\Forms\\frmValidarCodigo.cs [Design]",
+              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmValidarCodigo.cs [Projeto]",
+              "RelativeToolTip": "frmLogin\\Forms\\frmValidarCodigo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T10:01:11.504Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
-              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmLogin.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
-              "RelativeToolTip": "frmLogin\\Forms\\frmLogin.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAjwG8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:18:55.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmValidarCodigo.cs",
-              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmValidarCodigo.cs",
-              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmValidarCodigo.cs",
-              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmValidarCodigo.cs",
-              "RelativeToolTip": "frmLogin\\Forms\\frmValidarCodigo.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAewEgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T09:23:27.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmRedefinirSenha.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmRedefinirSenha.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmRedefinirSenha.cs",
               "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmRedefinirSenha.cs [Projeto]",
               "RelativeToolTip": "frmLogin\\Forms\\frmRedefinirSenha.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:34:37.232Z"
+              "WhenOpened": "2025-03-25T09:34:37.232Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmRedefinirSenha.cs",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmRedefinirSenha.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmRedefinirSenha.cs",
               "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmRedefinirSenha.cs",
               "RelativeToolTip": "frmLogin\\Forms\\frmRedefinirSenha.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAjwF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:34:40.086Z"
+              "WhenOpened": "2025-03-25T09:34:40.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "frmRecuperarSenha.cs",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmRecuperarSenha.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmRecuperarSenha.cs",
@@ -115,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "frmLogin.cs [Projeto]",
               "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmLogin.cs",
               "RelativeDocumentMoniker": "frmLogin\\Forms\\frmLogin.cs",

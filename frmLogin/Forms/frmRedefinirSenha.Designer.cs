@@ -44,6 +44,7 @@
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold);
+            lblTitulo.ForeColor = Color.FromArgb(50, 50, 50);
             lblTitulo.Location = new Point(25, 20);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(153, 24);
@@ -54,6 +55,7 @@
             // 
             lblNovaSenha.AutoSize = true;
             lblNovaSenha.Font = new Font("Bahnschrift SemiBold", 9F, FontStyle.Bold);
+            lblNovaSenha.ForeColor = Color.FromArgb(80, 80, 80);
             lblNovaSenha.Location = new Point(40, 80);
             lblNovaSenha.Name = "lblNovaSenha";
             lblNovaSenha.Size = new Size(91, 18);
@@ -73,6 +75,7 @@
             // 
             lblConfirmSenha.AutoSize = true;
             lblConfirmSenha.Font = new Font("Bahnschrift SemiBold", 9F, FontStyle.Bold);
+            lblConfirmSenha.ForeColor = Color.FromArgb(80, 80, 80);
             lblConfirmSenha.Location = new Point(40, 130);
             lblConfirmSenha.Name = "lblConfirmSenha";
             lblConfirmSenha.Size = new Size(123, 18);
@@ -102,22 +105,33 @@
             // 
             // btnRedefinir
             // 
+            btnRedefinir.BackColor = Color.FromArgb(155, 192, 151);
+            btnRedefinir.FlatAppearance.BorderSize = 0;
+            btnRedefinir.FlatStyle = FlatStyle.Flat;
+            btnRedefinir.Font = new Font("Bahnschrift Condensed", 12F);
+            btnRedefinir.ForeColor = SystemColors.ButtonHighlight;
             btnRedefinir.Location = new Point(125, 210);
             btnRedefinir.Name = "btnRedefinir";
             btnRedefinir.Size = new Size(150, 40);
             btnRedefinir.TabIndex = 6;
             btnRedefinir.Text = "Redefinir Senha";
-            btnRedefinir.UseVisualStyleBackColor = true;
+            btnRedefinir.UseVisualStyleBackColor = false;
             btnRedefinir.Click += btnRedefinir_Click;
             // 
             // btnCancelar
             // 
+            btnCancelar.BackColor = Color.FromArgb(121, 116, 186);
+            btnCancelar.FlatAppearance.BorderSize = 0;
+            btnCancelar.FlatStyle = FlatStyle.Flat;
+            btnCancelar.Font = new Font("Bahnschrift Condensed", 12F);
+            btnCancelar.ForeColor = SystemColors.ButtonHighlight;
             btnCancelar.Location = new Point(285, 210);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(100, 40);
             btnCancelar.TabIndex = 7;
             btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // pbCloseApplication
             // 
@@ -133,7 +147,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(400, 300);
+            BackColor = Color.FromArgb(190, 214, 187);
+            ClientSize = new Size(400, 271);
             Controls.Add(pbCloseApplication);
             Controls.Add(btnCancelar);
             Controls.Add(btnRedefinir);

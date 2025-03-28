@@ -66,7 +66,7 @@ namespace Semente.Forms
             else
             {
                 MessageBox.Show("Erro ao redefinir senha. Tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+
             }
 
         }
@@ -88,6 +88,10 @@ namespace Semente.Forms
                 }
             }
         }
-        
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
