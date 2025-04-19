@@ -22,7 +22,7 @@ namespace Semente.Forms
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            pnlSidebar.Width = 200;
+            pnlSidebar.Width = 350;
             sidebarAberta = true;
             AjustaPosicaoBotao();
             btnToggleSidebar.Image = Properties.Resources.button_fecha;

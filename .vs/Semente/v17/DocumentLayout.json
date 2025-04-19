@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Semente\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|c:\\projetos\\semente\\frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4F857E-52D5-4C05-8576-814C18DDB1E9}|frmLogin\\Semente.csproj|solutionrelative:frmlogin\\forms\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmPrincipal.cs",
+              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs",
+              "RelativeToolTip": "frmLogin\\Forms\\frmPrincipal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:31:46.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmLogin\\Forms\\frmPrincipal.cs",
+              "ToolTip": "C:\\Projetos\\Semente\\frmLogin\\Forms\\frmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "frmLogin\\Forms\\frmPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T09:35:12.076Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

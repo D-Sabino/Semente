@@ -124,11 +124,20 @@
   <data name="button-fecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button-fecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SementeLogoPngFundoBranco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SementeLogoPngFundoBranco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SementeLogoPng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SementeLogoPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ilustracao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frmLoginIlustracao.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BackgroundPlantas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackgroundPlantas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackgroundFrmLogin.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -145,7 +154,7 @@
   <data name="button-abre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button-abre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CloseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CloseButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SementeLogoTextoPng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SementeLogoTextoPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
